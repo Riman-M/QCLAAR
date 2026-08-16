@@ -70,6 +70,7 @@ public class QEdgeBroker extends QBroker{
         QNodeSelectionLottery qnodeselection = new QNodeSelectionLottery(0.5, 0.5);
         QNode qNode = null;
         for (QTask qTask : getQTaskList()) {
+            qNode = null;
             if (qTask.getQNodeId() == -1) {
                 // APPLY SIMPLE LOTTERY BACKEND SELECTION STRATEGY
                 List<? extends QNode> preQNodes;
