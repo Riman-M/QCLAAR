@@ -24,7 +24,9 @@ import org.iquantum.utils.Log;
 import org.iquantum.utils.QTaskExporter;
 import org.iquantum.utils.QTaskImporter;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.lang.management.OperatingSystemMXBean;
@@ -47,6 +49,13 @@ public class iQuantumHybridExample4 {
         long startTime = System.currentTimeMillis();
         String exampleName = "iQuantumCloudEdgeExample3";
         System.out.println("Start the " + exampleName + " simulation");
+
+        try {
+            PrintStream fileOut = new PrintStream(new FileOutputStream("iQuantumCloudEdgeExample4.txt"));
+            System.setOut(fileOut);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         // Step 1: Initialize the core simulation package. It should be called before creating any entities.
         int num_user = 1;
