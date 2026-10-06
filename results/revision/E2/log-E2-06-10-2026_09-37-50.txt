@@ -1,0 +1,1024 @@
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.45/0.40/0.15/0.0	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 20670.8448803132
+Avg Execution Time    : 708.648154362416
+Avg Turnaround Time   : 21379.49303467562
+Avg Wall Clock Time   : 21379.49303467562
+Makespan              : 56938.8400
+Throughput            : 0.005233685829
+Avg Cost              : 1133.837046979866
+Runner WallClock (ms) : 17
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 17 ms
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.40/0.30/0.15/0.15	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 20670.8448803132
+Avg Execution Time    : 708.648154362416
+Avg Turnaround Time   : 21379.49303467562
+Avg Wall Clock Time   : 21379.49303467562
+Makespan              : 56938.8400
+Throughput            : 0.005233685829
+Avg Cost              : 1133.837046979866
+Runner WallClock (ms) : 18
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 18 ms
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.45/0.40/0.15/0.15	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 20670.8448803132
+Avg Execution Time    : 708.648154362416
+Avg Turnaround Time   : 21379.49303467562
+Avg Wall Clock Time   : 21379.49303467562
+Makespan              : 56938.8400
+Throughput            : 0.005233685829
+Avg Cost              : 1133.837046979866
+Runner WallClock (ms) : 16
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 16 ms
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.40/0.30/0.15/0.0	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 20670.8448803132
+Avg Execution Time    : 708.648154362416
+Avg Turnaround Time   : 21379.49303467562
+Avg Wall Clock Time   : 21379.49303467562
+Makespan              : 56938.8400
+Throughput            : 0.005233685829
+Avg Cost              : 1133.837046979866
+Runner WallClock (ms) : 15
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 15 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.45/0.40/0.15/0.0	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 179791.28217594375
+Avg Execution Time    : 1626.566451897618
+Avg Turnaround Time   : 181417.84862784127
+Avg Wall Clock Time   : 181417.84862784127
+Makespan              : 469156.9800
+Throughput            : 0.002414969932
+Avg Cost              : 2602.506323036187
+Runner WallClock (ms) : 64
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 64 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.40/0.30/0.15/0.15	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 179791.28217594375
+Avg Execution Time    : 1626.566451897618
+Avg Turnaround Time   : 181417.84862784127
+Avg Wall Clock Time   : 181417.84862784127
+Makespan              : 469156.9800
+Throughput            : 0.002414969932
+Avg Cost              : 2602.506323036187
+Runner WallClock (ms) : 60
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 60 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.45/0.40/0.15/0.15	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 179791.28217594375
+Avg Execution Time    : 1626.566451897618
+Avg Turnaround Time   : 181417.84862784127
+Avg Wall Clock Time   : 181417.84862784127
+Makespan              : 469156.9800
+Throughput            : 0.002414969932
+Avg Cost              : 2602.506323036187
+Runner WallClock (ms) : 60
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 60 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.40/0.30/0.15/0.0	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 179791.28217594375
+Avg Execution Time    : 1626.566451897618
+Avg Turnaround Time   : 181417.84862784127
+Avg Wall Clock Time   : 181417.84862784127
+Makespan              : 469156.9800
+Throughput            : 0.002414969932
+Avg Cost              : 2602.506323036187
+Runner WallClock (ms) : 67
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 67 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.45/0.40/0.15/0.0	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 7109072.076208257
+Avg Execution Time    : 11834.230601581286
+Avg Turnaround Time   : 7120906.30680984
+Avg Wall Clock Time   : 7120906.30680984
+Makespan              : 16918449.740000002
+Throughput            : 0.000343884936
+Avg Cost              : 18934.768962529975
+Runner WallClock (ms) : 3591
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3591 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.40/0.30/0.15/0.15	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 7017250.084080373
+Avg Execution Time    : 11783.524284977677
+Avg Turnaround Time   : 7029033.608365351
+Avg Wall Clock Time   : 7029033.608365351
+Makespan              : 15757402.2400
+Throughput            : 0.000369223297
+Avg Cost              : 18853.63885596423
+Runner WallClock (ms) : 3662
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3662 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.45/0.40/0.15/0.15	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 7109072.076208257
+Avg Execution Time    : 11834.230601581286
+Avg Turnaround Time   : 7120906.30680984
+Avg Wall Clock Time   : 7120906.30680984
+Makespan              : 16918449.740000002
+Throughput            : 0.000343884936
+Avg Cost              : 18934.768962529975
+Runner WallClock (ms) : 3603
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3603 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.40/0.30/0.15/0.0	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 7017250.084080373
+Avg Execution Time    : 11783.524284977677
+Avg Turnaround Time   : 7029033.608365351
+Avg Wall Clock Time   : 7029033.608365351
+Makespan              : 15757402.2400
+Throughput            : 0.000369223297
+Avg Cost              : 18853.63885596423
+Runner WallClock (ms) : 3644
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3644 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.45/0.40/0.15/0.0	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 5729227.858652416
+Avg Execution Time    : 9831.386705399822
+Avg Turnaround Time   : 5739059.245357817
+Avg Wall Clock Time   : 5739059.245357817
+Makespan              : 16918449.7500
+Throughput            : 0.00043236822
+Avg Cost              : 15730.218728639724
+Runner WallClock (ms) : 3661
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 3661 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.40/0.30/0.15/0.15	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 5656197.052063212
+Avg Execution Time    : 9791.05733424469
+Avg Turnaround Time   : 5665988.109397457
+Avg Wall Clock Time   : 5665988.109397457
+Makespan              : 15757402.2500
+Throughput            : 0.000464226265
+Avg Cost              : 15665.691734791535
+Runner WallClock (ms) : 4070
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 4070 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.45/0.40/0.15/0.15	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 5729227.858652416
+Avg Execution Time    : 9831.386705399822
+Avg Turnaround Time   : 5739059.245357817
+Avg Wall Clock Time   : 5739059.245357817
+Makespan              : 16918449.7500
+Throughput            : 0.00043236822
+Avg Cost              : 15730.218728639724
+Runner WallClock (ms) : 3737
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 3737 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: no_stress
+==================================================
+COUNTERS	no_stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.40/0.30/0.15/0.0	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : no_stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 5656197.052063212
+Avg Execution Time    : 9791.05733424469
+Avg Turnaround Time   : 5665988.109397457
+Avg Wall Clock Time   : 5665988.109397457
+Makespan              : 15757402.2500
+Throughput            : 0.000464226265
+Avg Cost              : 15665.691734791535
+Runner WallClock (ms) : 3702
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 3702 ms
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.45/0.40/0.15/0.0	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 56461.128288590604
+Avg Execution Time    : 1769.265704697987
+Avg Turnaround Time   : 58230.39399328859
+Avg Wall Clock Time   : 58230.39399328859
+Makespan              : 261795.09999999998
+Throughput            : 0.001138294796
+Avg Cost              : 2830.825127516779
+Runner WallClock (ms) : 0
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 0 ms
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.40/0.30/0.15/0.15	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 56461.128288590604
+Avg Execution Time    : 1769.265704697987
+Avg Turnaround Time   : 58230.39399328859
+Avg Wall Clock Time   : 58230.39399328859
+Makespan              : 261795.09999999998
+Throughput            : 0.001138294796
+Avg Cost              : 2830.825127516779
+Runner WallClock (ms) : 10
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 10 ms
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.45/0.40/0.15/0.15	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 56461.128288590604
+Avg Execution Time    : 1769.265704697987
+Avg Turnaround Time   : 58230.39399328859
+Avg Wall Clock Time   : 58230.39399328859
+Makespan              : 261795.09999999998
+Throughput            : 0.001138294796
+Avg Cost              : 2830.825127516779
+Runner WallClock (ms) : 10
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 10 ms
+
+==================================================
+Running dataset: MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv	P:0.40/0.30/0.15/0.0	edge:298,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 298
+Total Completed       : 298
+Edge Completed        : 298
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 56461.128288590604
+Avg Execution Time    : 1769.265704697987
+Avg Turnaround Time   : 58230.39399328859
+Avg Wall Clock Time   : 58230.39399328859
+Makespan              : 261795.09999999998
+Throughput            : 0.001138294796
+Avg Cost              : 2830.825127516779
+Runner WallClock (ms) : 17
+-------------------------------------
+Completed: dataset=MQT-Set01-298-10-27-IBMQ27-Opt3-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 298
+Runner wall-clock time: 17 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.45/0.40/0.15/0.0	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 629124.8843843773
+Avg Execution Time    : 4613.394068843778
+Avg Turnaround Time   : 633738.278453221
+Avg Wall Clock Time   : 633738.278453221
+Makespan              : 2606122.9700
+Throughput            : 0.00043474541
+Avg Cost              : 7381.430510150037
+Runner WallClock (ms) : 63
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 63 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.40/0.30/0.15/0.15	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 629124.8843843773
+Avg Execution Time    : 4613.394068843778
+Avg Turnaround Time   : 633738.278453221
+Avg Wall Clock Time   : 633738.278453221
+Makespan              : 2606122.9700
+Throughput            : 0.00043474541
+Avg Cost              : 7381.430510150037
+Runner WallClock (ms) : 57
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 57 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.45/0.40/0.15/0.15	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 629124.8843843773
+Avg Execution Time    : 4613.394068843778
+Avg Turnaround Time   : 633738.278453221
+Avg Wall Clock Time   : 633738.278453221
+Makespan              : 2606122.9700
+Throughput            : 0.00043474541
+Avg Cost              : 7381.430510150037
+Runner WallClock (ms) : 62
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 62 ms
+
+==================================================
+Running dataset: MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv	P:0.40/0.30/0.15/0.0	edge:1133,0,0,0,1,0	cloud:0,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 1133
+Total Completed       : 1133
+Edge Completed        : 1133
+Cloud Completed       : 0
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 1.0000
+Cloud Execution Ratio : 0.0000
+Avg Waiting Time      : 629124.8843843773
+Avg Execution Time    : 4613.394068843778
+Avg Turnaround Time   : 633738.278453221
+Avg Wall Clock Time   : 633738.278453221
+Makespan              : 2606122.9700
+Throughput            : 0.00043474541
+Avg Cost              : 7381.430510150037
+Runner WallClock (ms) : 64
+-------------------------------------
+Completed: dataset=MQT-Set02-10-27-Mapped-AllAlgorithmLeft-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 0
+Edge tasks completed: 1133
+Runner wall-clock time: 64 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.45/0.40/0.15/0.0	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 15320713.367920673
+Avg Execution Time    : 26049.755450326553
+Avg Turnaround Time   : 15346763.123370994
+Avg Wall Clock Time   : 15346763.123370994
+Makespan              : 37419998.5100
+Throughput            : 0.00015547836
+Avg Cost              : 41679.608720522505
+Runner WallClock (ms) : 3622
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3622 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.40/0.30/0.15/0.15	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 15227659.83402242
+Avg Execution Time    : 25256.11334307319
+Avg Turnaround Time   : 15252915.947365489
+Avg Wall Clock Time   : 15252915.947365489
+Makespan              : 38443731.88999999
+Throughput            : 0.000151338065
+Avg Cost              : 40409.78134891724
+Runner WallClock (ms) : 3600
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3600 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.45/0.40/0.15/0.15	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 15320713.367920673
+Avg Execution Time    : 26049.755450326553
+Avg Turnaround Time   : 15346763.123370994
+Avg Wall Clock Time   : 15346763.123370994
+Makespan              : 37419998.5100
+Throughput            : 0.00015547836
+Avg Cost              : 41679.608720522505
+Runner WallClock (ms) : 3588
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3588 ms
+
+==================================================
+Running dataset: MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv	P:0.40/0.30/0.15/0.0	edge:0,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 5818
+Total Completed       : 5818
+Edge Completed        : 0
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.0000
+Cloud Execution Ratio : 1.0000
+Avg Waiting Time      : 15227659.83402242
+Avg Execution Time    : 25256.11334307319
+Avg Turnaround Time   : 15252915.947365489
+Avg Wall Clock Time   : 15252915.947365489
+Makespan              : 38443731.88999999
+Throughput            : 0.000151338065
+Avg Cost              : 40409.78134891724
+Runner WallClock (ms) : 3740
+-------------------------------------
+Completed: dataset=MQT-Set03-7-127-AllOpt-IBMMapped-Only127-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 0
+Runner wall-clock time: 3740 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.45/0.40/0.15/0.0	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.0
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 11847379.92553516
+Avg Execution Time    : 19363.565183868806
+Avg Turnaround Time   : 11866743.490719026
+Avg Wall Clock Time   : 11866743.490719026
+Makespan              : 31789198.3100
+Throughput            : 0.000230109609
+Avg Cost              : 30981.704294190044
+Runner WallClock (ms) : 3603
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.45/0.40/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 3603 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.40/0.30/0.15/0.15	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.15
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 11616648.401922058
+Avg Execution Time    : 20005.96849624061
+Avg Turnaround Time   : 11636654.370418299
+Avg Wall Clock Time   : 11636654.370418299
+Makespan              : 32793659.0900
+Throughput            : 0.000223061415
+Avg Cost              : 32009.54959398495
+Runner WallClock (ms) : 3624
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.40/0.30/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 3624 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.45/0.40/0.15/0.15
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.45/0.40/0.15/0.15	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.45/0.40/0.15/0.15
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 11847379.92553516
+Avg Execution Time    : 19363.565183868806
+Avg Turnaround Time   : 11866743.490719026
+Avg Wall Clock Time   : 11866743.490719026
+Makespan              : 31789198.3100
+Throughput            : 0.000230109609
+Avg Cost              : 30981.704294190044
+Runner WallClock (ms) : 3643
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.45/0.40/0.15/0.15
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 3643 ms
+
+==================================================
+Running dataset: MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Running algorithm: P:0.40/0.30/0.15/0.0
+Scenario: stress
+==================================================
+COUNTERS	stress	MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv	P:0.40/0.30/0.15/0.0	edge:1497,0,0,0,1,0	cloud:5818,0,0,0,2,0
+-------------- SUMMARY --------------
+Scenario              : stress
+Dataset               : MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv
+Algorithm             : P:0.40/0.30/0.15/0.0
+Total Submitted       : 7315
+Total Completed       : 7315
+Edge Completed        : 1497
+Cloud Completed       : 5818
+Incomplete            : 0
+Completion Ratio      : 1.0000
+Edge Execution Ratio  : 0.204647983595
+Cloud Execution Ratio : 0.795352016405
+Avg Waiting Time      : 11616648.401922058
+Avg Execution Time    : 20005.96849624061
+Avg Turnaround Time   : 11636654.370418299
+Avg Wall Clock Time   : 11636654.370418299
+Makespan              : 32793659.0900
+Throughput            : 0.000223061415
+Avg Cost              : 32009.54959398495
+Runner WallClock (ms) : 3661
+-------------------------------------
+Completed: dataset=MQT-Set04-7-127-AllOpt-IBMMapped-Extra.csv, algorithm=P:0.40/0.30/0.15/0.0
+Cloud tasks completed: 5818
+Edge tasks completed: 1497
+Runner wall-clock time: 3661 ms
