@@ -33,7 +33,7 @@ import java.util.*;
  * Same structure as iQuantumHybridMultiDatasetRunner. Set the flags below
  * and Run this file from the repo root. No command-line arguments needed.
  *
- *   EXPERIMENT = "E1" ... "E6", "E4b", or "ALL"
+ *   EXPERIMENT = "E1" ... "E7", "E4b", or "ALL"
  *
  * Every experiment runs both No-Stress and Stress. Output goes to
  * results/revision/<EXPERIMENT>/ (one summary CSV + one log per experiment).
@@ -44,7 +44,8 @@ import java.util.*;
  *   E4  Weight grid: 66 points on alpha+beta+gamma = 1, step 0.1
  *   E4b 1-D slice: gamma = 0.15, alpha 0.30..0.55 step 0.01, beta = 0.85 - alpha
  *   E5  MCT with runtime-estimate error, sigma in {0.1, 0.25, 0.5, 1.0}, seeds 1-5
- *   E6  10 resampled instances (80%, stratified by topology size)
+ *   E6  20 resampled instances (80%, stratified by topology size), run in two batches
+ *   E7  10 disjoint folds (each 10% of the tasks, stratified by topology size); minor revision
  *
  * Policy names: FCFS, LoadAware, QCLAR, QCLAAR (original classes), LotterySeeded,
  * MCT, and "P:alpha/beta/gamma/lambda" (parametric composite score).
@@ -68,8 +69,8 @@ public class iQuantumRevisionRunner {
     // FLAGS: edit, then Run this file
     // =================================================
 
-    /** Which experiment: "E1", "E2", "E3", "E4", "E4b", "E5", "E6", or "ALL". */
-    private static final String EXPERIMENT = "E6";
+    /** Which experiment: "E1", "E2", "E3", "E4", "E4b", "E5", "E6", "E7", or "ALL". */
+    private static final String EXPERIMENT = "E7";
 
     /** E6 instance range. First batch: 1..10. Second batch: 11..20. */
     private static final int E6_FIRST_INSTANCE = 11;
@@ -78,12 +79,18 @@ public class iQuantumRevisionRunner {
     /** Fraction of each dataset kept in a resampled instance (E6). */
     private static final double INSTANCE_FRACTION = 0.8;
 
+    /** E7: number of disjoint folds, and the seed of the one shuffle that defines them.
+     *  Every task belongs to exactly one fold, so the folds share no tasks. */
+    private static final int E7_FOLDS = 10;
+    private static final long E7_FOLD_SEED = 1L;
+
     // -------------------------------------------------
     // Per-run settings, set by the experiment plan (do not edit)
     // -------------------------------------------------
     private static List<String> ALGORITHMS;
     private static long LOTTERY_SEED = 1L;
     private static int INSTANCE = 0;          // 0 = full dataset
+    private static int FOLD = 0;              // 0 = no fold (E7 sets 1..E7_FOLDS)
     private static double MCT_SIGMA = 0.0;    // runtime-estimate error for MCT
     private static long MCT_SEED = 1L;
 
@@ -123,7 +130,7 @@ public class iQuantumRevisionRunner {
         Log.disable();
         PrintStream console = System.out;
         List<String> exps = EXPERIMENT.equals("ALL")
-                ? Arrays.asList("E1", "E2", "E3", "E4", "E4b", "E5", "E6")
+                ? Arrays.asList("E1", "E2", "E3", "E4", "E4b", "E5", "E6", "E7")
                 : Collections.singletonList(EXPERIMENT);
         console.println("Java " + System.getProperty("java.version") + " on " + System.getProperty("os.name"));
 
@@ -144,9 +151,9 @@ public class iQuantumRevisionRunner {
                 String scenarioTag = stress ? "stress" : "no_stress";
                 for (RunSpec r : plan(exp)) {
                     ALGORITHMS = r.algorithms;
-                    LOTTERY_SEED = r.lotterySeed; INSTANCE = r.instance;
+                    LOTTERY_SEED = r.lotterySeed; INSTANCE = r.instance; FOLD = r.fold;
                     MCT_SIGMA = r.mctSigma;       MCT_SEED = r.mctSeed;
-                    console.println("   " + scenarioTag + "  instance=" + INSTANCE + " lotterySeed=" + LOTTERY_SEED
+                    console.println("   " + scenarioTag + "  instance=" + INSTANCE + " fold=" + FOLD + " lotterySeed=" + LOTTERY_SEED
                             + " mctSigma=" + MCT_SIGMA + " mctSeed=" + MCT_SEED + "  "
                             + (ALGORITHMS.size() > 6 ? ALGORITHMS.size() + " policies" : ALGORITHMS));
                     for (String datasetFile : DATASETS) {
@@ -176,10 +183,11 @@ public class iQuantumRevisionRunner {
     // -------------------------------------------------
 
     private static class RunSpec {
-        List<String> algorithms; long lotterySeed = 1L; int instance = 0; double mctSigma = 0.0; long mctSeed = 1L;
+        List<String> algorithms; long lotterySeed = 1L; int instance = 0; int fold = 0; double mctSigma = 0.0; long mctSeed = 1L;
         RunSpec(String... algs) { algorithms = Arrays.asList(algs); }
         RunSpec lottery(long k) { lotterySeed = k; return this; }
         RunSpec instance(int i) { instance = i; return this; }
+        RunSpec fold(int f) { fold = f; return this; }
         RunSpec mct(double sigma, long seed) { mctSigma = sigma; mctSeed = seed; return this; }
     }
 
@@ -221,6 +229,13 @@ public class iQuantumRevisionRunner {
                     p.add(new RunSpec("FCFS", "LoadAware", "QCLAR", "QCLAAR", "MCT").instance(i));
                     for (int k = 1; k <= 5; k++) p.add(new RunSpec("LotterySeeded").instance(i).lottery(k));
                     for (double sg : new double[]{0.25, 0.5}) p.add(new RunSpec("MCT").instance(i).mct(sg, i));
+                }
+                break;
+            case "E7":   // same policies and seeds as E6, on disjoint folds instead of overlapping subsamples
+                for (int f = 1; f <= E7_FOLDS; f++) {
+                    p.add(new RunSpec("FCFS", "LoadAware", "QCLAR", "QCLAAR", "MCT").fold(f));
+                    for (int k = 1; k <= 5; k++) p.add(new RunSpec("LotterySeeded").fold(f).lottery(k));
+                    for (double sg : new double[]{0.25, 0.5}) p.add(new RunSpec("MCT").fold(f).mct(sg, f));
                 }
                 break;
             default:
@@ -455,7 +470,7 @@ public class iQuantumRevisionRunner {
                                 "edge_completed,cloud_completed,total_incomplete," +
                                 "completion_ratio,edge_execution_ratio,cloud_execution_ratio," +
                                 "avg_waiting_time,avg_execution_time,avg_turnaround_time," +
-                                "avg_wall_clock_time,makespan,throughput,avg_cost,runner_wall_clock_ms,instance,lottery_seed,mct_sigma,mct_seed"
+                                "avg_wall_clock_time,makespan,throughput,avg_cost,runner_wall_clock_ms,instance,lottery_seed,mct_sigma,mct_seed,fold"
                 );
                 writer.newLine();
             }
@@ -483,7 +498,7 @@ public class iQuantumRevisionRunner {
             writer.write(DF.format(s.throughput)); writer.write(",");
             writer.write(DF.format(s.avgCost)); writer.write(",");
             writer.write(String.valueOf(s.runnerWallClockMs)); writer.write(",");
-            writer.write(INSTANCE + "," + LOTTERY_SEED + "," + MCT_SIGMA + "," + MCT_SEED);
+            writer.write(INSTANCE + "," + LOTTERY_SEED + "," + MCT_SIGMA + "," + MCT_SEED + "," + FOLD);
             writer.newLine();
         }
     }
@@ -613,7 +628,30 @@ public class iQuantumRevisionRunner {
         }
 
         if (INSTANCE > 0) qTaskList = subsample(qTaskList, INSTANCE, INSTANCE_FRACTION);
+        if (FOLD > 0) qTaskList = fold(qTaskList, FOLD, E7_FOLDS, E7_FOLD_SEED);
         return qTaskList;
+    }
+
+    /** Disjoint fold (E7): within each qubit-topology size, shuffle the task positions once with
+     *  Random(seed) and give the task at shuffled position p to fold (p mod k) + 1. The k folds
+     *  partition the dataset, so no two folds share a task. Original task order is preserved,
+     *  so each task keeps the stress class it was given in the full dataset. */
+    private static List<QTask> fold(List<QTask> tasks, int f, int k, long seed) {
+        Map<Integer, List<Integer>> strata = new TreeMap<Integer, List<Integer>>();
+        for (int i = 0; i < tasks.size(); i++) {
+            int key = tasks.get(i).getQubitTopology().getNumQubits();
+            strata.computeIfAbsent(key, x -> new ArrayList<Integer>()).add(i);
+        }
+        Random rng = new Random(seed);
+        Set<Integer> keep = new HashSet<Integer>();
+        for (List<Integer> idx : strata.values()) {
+            List<Integer> c = new ArrayList<Integer>(idx);
+            Collections.shuffle(c, rng);
+            for (int p = 0; p < c.size(); p++) if (p % k == f - 1) keep.add(c.get(p));
+        }
+        List<QTask> out = new ArrayList<QTask>();
+        for (int i = 0; i < tasks.size(); i++) if (keep.contains(i)) out.add(tasks.get(i));
+        return out;
     }
 
     /** Stratified resample: within each qubit-topology size, keep round(frac*n) tasks chosen
